@@ -93,14 +93,14 @@ public class MainActivity extends AppCompatActivity {
                             .addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
-// These are a method which gets executed when the task is succeeded
+                                // These are a method which gets executed when the task is succeeded
                                     Log.d(TAG, "Data has been added successfully!");
                                 }
                             })
                             .addOnFailureListener(new OnFailureListener() {
                                 @Override
                                 public void onFailure(@NonNull Exception e) {
-// These are a method which gets executed if there’s any problem 
+                                // These are a method which gets executed if there’s any problem
                                     Log.d(TAG, "Data could not be added!" + e.toString());
                                 }
                             });
